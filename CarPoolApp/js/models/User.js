@@ -2,7 +2,7 @@ class User {
   constructor( ){ }
  
   getUsers = async() => {
-    let response = await fetch(`https://raw.githubusercontent.com/sedc-codecademy/sp2020-pr01-cpa/ivan-mitev/cp_app/data.json`);
+    let response = await fetch(`https://raw.githubusercontent.com/KaterinaAtanasoska/CarPoolApp/master/CarPool/data.json`);
      
     state.data = await response.json();
 
